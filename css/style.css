@@ -1,0 +1,110 @@
+html, body {
+	font-family: 'Open Sans';
+	background: #0085C5;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: #ececec;
+}
+
+.logo {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	width: 270px;	
+}
+
+#presses {
+	color: #ececec;
+	font-size: 340px;
+	margin-bottom: 0px;
+	text-shadow: 1px 1px 1px #757575;
+}
+
+.btn {
+	font-family: 'Montserrat';
+	font-size: 30px;
+	text-transform: uppercase;
+	border: 2px solid #ececec;
+	padding: 5px 10px 5px 10px;
+	border-radius: 5px;
+	min-width: 200px;
+	width: 200px;
+	position: relative;
+	top: -20px;
+	color: #ececec;
+	transition: 1s;
+}
+
+.btn:hover {
+	color: #fe7801;
+	background: #fff;
+	transition: 1s;
+}
+
+.btn:hover a {
+	color: #fe7801;
+	transition: 1.2s;
+}
+
+#st {
+	display: none;
+}
+
+#mycounter {
+	font-size: 32px;
+	font-family: 'Montserrat';
+	color: #ececec;
+	position: relative;
+	top: -50px;
+}
+
+#tips {
+	font-family: 'Open Sans';
+	color: #fff;
+	position: absolute;
+	right: 30px;
+	top: 38%;
+	width: 300px;
+	font-size: 20px;
+}
+
+#tip-title {
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-size: 38px;
+}
+
+#share {
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+}
+
+#share img {
+	width: 250px;
+	transition: 1s;
+}
+#share span {
+	color: #fff;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+}
+
+#author {
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+	color: #fff;
+	font-family: 'Montserrat';
+}
+
+#author a:hover {
+	border-bottom: 1px dotted;
+}
+
+.hide {
+	display: none;
+}
