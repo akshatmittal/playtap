@@ -89,7 +89,7 @@ zen.share = function () {
 		"&caption=I made " + count + " taps in " + inTa + "s. Can you beat me?" +
 		"&picture=http://akshatmittal.github.io/playtap/images/tap.png" +
 		"&actions={name:'Playtap!',link:'http://akshatmittal.github.io/playtap/'}";
-	window.open(url, '', 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,height=400,width=1000');
+	window.open(url, '', 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,height=600,width=1000');
 }
 zen.changeCount = function (c) {
 	count = c;
