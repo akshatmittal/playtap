@@ -86,9 +86,10 @@ zen.share = function () {
 	var url = "https://www.facebook.com/dialog/feed?app_id=235049906694588" +
 		"&redirect_uri=http://akshatmittal.github.io/playtap/" +
 		"&link=http://akshatmittal.github.io/playtap/" +
-		"&caption=I made " + count + " taps in " + inTa + "s. Can you beat me?" +
+		"&caption=Playtap! The easiest, yet the toughest." +
 		"&picture=http://akshatmittal.github.io/playtap/images/tap.png" +
-		"&actions={name:'Playtap!',link:'http://akshatmittal.github.io/playtap/'}";
+		"&actions={name:'Playtap!',link:'http://akshatmittal.github.io/playtap/'}"+
+		"&name=I made " + count + " taps in " + inTa + "s. Can you beat me?";
 	window.open(url, '', 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,height=600,width=1000');
 }
 zen.changeCount = function (c) {
