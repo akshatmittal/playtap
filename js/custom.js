@@ -84,7 +84,7 @@ zen.changeTime = function (t) {
 }
 zen.share = function () {
 	var url = "https://www.facebook.com/dialog/feed?app_id=235049906694588" +
-		"&redirect_uri=http://akshatmittal.github.io/playtap/" +
+		"&redirect_uri=http://akshatmittal.github.io/playtap/close.html" +
 		"&link=http://akshatmittal.github.io/playtap/" +
 		"&caption=Playtap! The easiest, yet the toughest." +
 		"&picture=http://akshatmittal.github.io/playtap/images/tap.png" +
